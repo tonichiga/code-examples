@@ -1,0 +1,86 @@
+html {
+  font-size: 13px;
+  --size: 16px;
+
+  /* START TABLET MEDIA*/
+
+  @media screen and (min-width: 390px) {
+    font-size: 16px;
+  }
+  @media screen and (max-height: 600px) {
+    font-size: 13px;
+  }
+  @media screen and (min-width: 544px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 644px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 744px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 868px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 968px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1068px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1168px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1380px) {
+    font-size: 14px;
+  }
+
+  /* START LAPTOP MEDIA*/
+  @media screen and (min-width: 1440px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1580px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1680px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1780px) {
+    font-size: 16px;
+  }
+
+  /* START DESKTOP MEDIA*/
+  @media screen and (min-width: 1920px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 2120px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 2320px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 2520px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 2720px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 2920px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 3220px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 3520px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 3820px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1300px) and (min-heigh: 700px) {
+  }
+}

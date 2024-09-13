@@ -1,0 +1,16 @@
+:root {
+  --rare-gray: #7a7a7a;
+  --rare-red: #ff1801;
+  --rare-blue: #02b1ff;
+  --rare-white: #e7e7e8;
+  --rate-purple: purple;
+  --rare-gradient-gray: linear-gradient(0deg, #38383f 0%, #7a7a7a 100%);
+  --rare-gradient-red: linear-gradient(0deg, #38383f 0%, #ff1801 100%);
+  --rare-gradient-blue: linear-gradient(0deg, #38383f 0%, #02b1ff 100%);
+  --rare-gradient-purple: linear-gradient(
+    0deg,
+    #38383f 0%,
+    rgb(133, 1, 133) 100%
+  );
+  --rare-gradient-gold: linear-gradient(0deg, #38383f 0%, #e7d185 100%);
+}

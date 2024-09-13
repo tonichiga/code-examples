@@ -1,0 +1,82 @@
+@keyframes infinity-translate {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes infinity-rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes infinity-fast-rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+
+@keyframes translate-in-screen {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes in-view-camera-scale {
+  0% {
+    transform: scale(0.3);
+  }
+  100% {
+    transform: scale(1.6);
+  }
+}
+
+@keyframes skeleton {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes ptr-loading {
+  0% {
+    transform: translateY(0) scale(0.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.skeleton {
+  /* //added gradient with rotate 45 degrees */
+  background: linear-gradient(
+    90deg,
+    #f4f4f510 0%,
+    #e7e7e830 50%,
+    #f4f4f510 100%
+  );
+
+  background-size: 200% 100%;
+  background-blend-mode: color-burn;
+  border-radius: 0.5rem;
+  animation: skeleton 3s infinite linear;
+}
+
+.transition-spring {
+  @apply transition-all duration-300 ease-spring;
+}

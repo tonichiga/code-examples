@@ -1,0 +1,83 @@
+.scroll-bar::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 2.5rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  /* @apply w-[0.5rem] h-rem-[2.5rem]  box-content cursor-pointer; */
+}
+
+.scroll-bar::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 0.5rem;
+  width: 1rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  /* @apply bg-[transparent] rounded-[0.5rem] w-[1rem] box-content cursor-pointer; */
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: black;
+  width: 0.5rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  /* @apply bg-White/50 rounded-[0.5rem] w-[0.5rem] box-content cursor-pointer; */
+}
+
+textarea::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 2.5rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  /* @apply w-[0.5rem] h-rem-[2.5rem]  box-content cursor-pointer; */
+}
+
+textarea::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 0.5rem;
+  width: 1rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  /* @apply bg-[transparent] rounded-[0.5rem] w-[1rem] box-content cursor-pointer; */
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 0.5rem;
+  width: 0.5rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  /* @apply bg-White/50 rounded-[0.5rem] w-[0.5rem] box-content cursor-pointer; */
+}
+.scroll-bar-horizontal::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  /* @apply w-[0.5rem] h-rem-[0.5rem]  box-content cursor-pointer; */
+}
+
+.scroll-bar-horizontal-slim::-webkit-scrollbar {
+  width: 0.2rem;
+  height: 0.5rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  /* @apply w-[0.2rem] h-rem-[0.5rem]  box-content cursor-pointer; */
+}
+
+.scroll-bar-horizontal::-webkit-scrollbar-track {
+  background-color: #010101;
+  border-radius: 0.5rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  /* @apply bg-Black/100 rounded-[0.5rem] box-content cursor-pointer; */
+}
+
+.scroll-bar-horizontal::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 0.5rem;
+  width: 0.25rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  /* @apply bg-White/50 rounded-[0.5rem] w-[0.2.5rem] box-content cursor-pointer; */
+}

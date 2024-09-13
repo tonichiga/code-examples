@@ -1,0 +1,42 @@
+:root {
+  --wheel-shadow: 0px;
+}
+
+.car-shadow {
+  z-index: 9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, 7.5rem) skew(-30deg, 0deg);
+  height: 30px;
+  width: 900px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 100px 0px #000;
+  filter: blur(9.5px);
+  background-color: #00000080;
+}
+
+.wheel-shadow-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 62%;
+  height: 62%;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px var(--wheel-shadow) 0px rgb(210, 25, 7, 1);
+  transition: box-shadow 1200ms;
+}
+
+.wheel-shadow-line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px var(--wheel-shadow) 0px rgb(210, 25, 7, 1);
+  transition: box-shadow 1200ms;
+}

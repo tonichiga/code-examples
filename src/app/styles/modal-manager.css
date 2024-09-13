@@ -1,0 +1,70 @@
+@keyframes bg_opacity_scale {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes bg_opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.backdrop_modal_manager {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  animation: bg_opacity 150ms ease-in-out forwards;
+}
+
+.backdrop_modal_manager_center {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  animation: bg_opacity 300ms ease-in-out forwards,
+    scale_up 80ms ease-in-out 80ms forwards;
+  transform: scale(0.85);
+}
+
+@keyframes scale_up {
+  from {
+    transform: scale(0.85);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.main_container_modal_manager {
+  opacity: 0;
+  animation: bg_opacity 250ms forwards;
+}

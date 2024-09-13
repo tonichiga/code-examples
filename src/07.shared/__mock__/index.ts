@@ -1,0 +1,1 @@
+export { mockArray } from "./array";
